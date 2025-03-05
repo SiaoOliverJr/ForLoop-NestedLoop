@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char letter;
+     cout<<"Enter 5 characters\n";
+    for(int i=0;i<5;i++)
+    {
+        cout<<"Enter character: ";
+        cin >> letter;
+
+        if(letter =='n')
+        {
+            cout<<"You have entered 'n'"<<"\n"<<"Exiting the loop";
+
+            break;
+        }
+
+    }
+
+
+return 0;
+}
