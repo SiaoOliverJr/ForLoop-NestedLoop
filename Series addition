@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sum;
+
+    for( int i=5; i<=50; i+=3)
+    {
+        sum=sum+i;
+    }
+    cout<<"The sum of the series: 5+8+11+...+50 is = "<<sum;
+
+   return 0;
+}
+
